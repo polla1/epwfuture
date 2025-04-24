@@ -101,7 +101,7 @@ def show_erbil_analysis(erbil_data):
         threshold = st.slider(
             "Select temperature threshold (°C)",
             min_value=30,
-            max_value=58,
+            max_value=53,
             value=40,
             step=1,
             help="Analyze hours above this temperature level",
